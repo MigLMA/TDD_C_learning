@@ -1,0 +1,22 @@
+---
+:source:
+  :path: test/electrical
+  :file: test_lights.c
+:successes:
+- :test: test_WhenTheHeadlightSwitchIsOff_ThenTheHeadLightsAreOff
+  :line: 17
+  :message: ''
+- :test: test_WhenTheHeadlightSwitchIsOn_ThenTheHeadLightsAreOn
+  :line: 25
+  :message: ''
+:failures: []
+:ignores:
+- :test: test_lights_NeedToImplement
+  :line: 14
+  :message: Need to Implement lights
+:counts:
+  :total: 3
+  :passed: 2
+  :failed: 0
+  :ignored: 1
+:stdout: []
