@@ -14,5 +14,10 @@ v0.0.TDD_Ceedling: TDD using Ceedling. | 20180210
 > * ```gem install ceedling```
 > * ```git clone https://github.com/MigLMA/TDD_C_learning.git && cd TDD_C_learning```
 > * ```git checkout 0.0.TDD_Ceedling```.
-> * ```ceedling test:all``` or ```ceedling -T```
+Basic commands:
+> * ```ceddling new CeedlingTDD```
+> * ```cd CeedlingTDD```
+> * ```ceedling -T```
+> * ```ceedling module:create[electrical/lights]```
+> * ```ceedling test:all```
 ***
